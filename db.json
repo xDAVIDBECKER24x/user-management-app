@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": 2,
+      "nome": "Loyd Forger",
+      "idade": 30,
+      "perfil": "Spy"
+    },
+    {
+      "id": 3,
+      "nome": "Yor Forger",
+      "idade": 27,
+      "perfil": "Assassin"
+    },
+    {
+      "id": 4,
+      "nome": "David",
+      "idade": "19",
+      "perfil": "Spy"
+    },
+    {
+      "id": 5,
+      "nome": "Damian",
+      "idade": "7",
+      "perfil": "Student"
+    },
+    {
+      "id": 6,
+      "nome": "Damian",
+      "idade": "7",
+      "perfil": "Student"
+    },
+    {
+      "id": 7,
+      "nome": "Damian",
+      "idade": "7",
+      "perfil": "Student"
+    }
+  ]
+}

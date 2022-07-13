@@ -1,0 +1,21 @@
+<form id="myForm"  #f="ngForm" (ngSubmit)="addUsuario()">
+    <div class="form-group">
+        <label>Id</label>
+        <input type="text" name="id" [(ngModel)]="model.id" class="form-control" id="id" placeholder="Enter Id">
+    </div>
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" name="nome" [(ngModel)]="model.nome" class="form-control" id="nome" placeholder="Enter Nome">
+    </div>
+    <div class="form-group">
+        <label>Idade</label>
+        <input type="text" name="idade" [(ngModel)]="model.idade"class="form-control" id="idade" placeholder="Enter Idade">
+    </div>
+    <div class="form-group">
+        <label>Perfil</label>
+        <input type="text" name="perfil" [(ngModel)]="model.perfil" class="form-control" id="perfil" placeholder="Enter Perfil">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Atualizar</button>
+    </div>
+</form>
